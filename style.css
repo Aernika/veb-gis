@@ -1,0 +1,52 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  position: absolute;
+  padding: 5% 5%;
+  top: 0;
+  bottom: 0;
+  width: 90%;
+}
+
+.ol-popup {
+  position: -webkit-sticky;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  padding: 1.5vw;
+  border-radius: 1vw;
+  border: 0.1vw solid #cccccc;
+  bottom: 12px;
+  left: -100%;
+  min-width: 60%;
+  /*position: absolute;*/
+  /*background-color: white;*/
+  /*box-shadow: 0 1px 4px rgba(0,0,0,0.2);*/
+  /*padding: 15px;*/
+  /*border-radius: 10px;*/
+  /*border: 1px solid #cccccc;*/
+  /*bottom: 12px;*/
+  /*left: -50px;*/
+  /*min-width: 280px;*/
+}
+
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  /*top: 1vw;*/
+  right: 2vw;
+}
+.ol-popup-closer:after {
+  content: "✖";
+  font-size: 1.5vw;
+}
+
+.ol-popup-content {
+  font-size: 1vw;
+}
