@@ -8,11 +8,11 @@ html, body {
   display: flex;
   align-items: center;
   justify-items: center;
-  position: absolute;
   padding: 5% 5%;
   top: 0;
   bottom: 0;
   width: 90%;
+  height: 80%;
 }
 
 .ol-popup {
